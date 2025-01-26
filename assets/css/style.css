@@ -2169,4 +2169,8 @@ footer {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 150px;
 }
