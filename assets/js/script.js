@@ -157,3 +157,16 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+const youtubeLink = document.getElementById('youtube-link');
+
+youtubeLink.addEventListener('click', (event) => {
+  // Allow the current click to navigate to the original URL
+  setTimeout(() => {
+    // Update the link to the new URL
+    youtubeLink.href = 'https://www.youtube.com/@anishmanandhar1203';
+
+    // Update the text of the link
+    youtubeLink.textContent = 'Haha, just kidding! Here it is!';
+  }, 100); // Small delay to ensure the original click goes through
+});
